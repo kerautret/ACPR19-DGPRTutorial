@@ -1,5 +1,5 @@
 # ACPR19-DGPRTutorial
-ACPR 2019 Tutorial:  Digital Geometry in Pattern Recognition : Extracting Geometric Features with DGtal and Applications
+[ACPR 2019 Tutorial](https://kerautret.github.io/ACPR19-DGPRTutorial/):  Digital Geometry in Pattern Recognition : Extracting Geometric Features with DGtal and Applications
 
 
 Slides of the presentation:
