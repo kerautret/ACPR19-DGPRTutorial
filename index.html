@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>ACPR 2019 Tutorial on Digital Geometry in Pattern Recognition </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">ACPR 2019 Tutorial on Digital Geometry in Pattern Recognition: </h1>
+      <h2 class="project-tagline"> Extracting Geometric Features with \textit{DGtal} and Applications with Reproducible Research</h2>
+      <a href="https://github.com/kerautret/ACPR19-DGPRTutorial" class="btn">View on GitHub</a>
+      
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="accv-2016-tutorial-on--digital-geometry-processing" class="anchor" href="#accv-2016-tutorial-on--digital-geometry-processing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ACPR 2019 Tutorial on Digital Geometry in Pattern Recognition</h1>
+
+
+
+      <h2>Abstract </h2>
+      <p>
+        Estimating geometric parameters can play an important role in
+different applications of pattern recognition algorithms. The purpose
+of this tutorial is to present new efficient and easy to reproduce
+algorithms dedicated to the robust extraction of geometric features on
+digital objects. The tutorial will consist of a rapid overview of the
+theoretical description of recent estimators (like tangent, curvature
+or noise estimators) followed by the implementation details given
+through the <a href="http://dgtal.org">DGtal</a> library. To introduce this library,
+a quick look of the main features will be presented with preliminary
+exercises available online before the tutorial.
+      </p>
+      <p>
+To simplify interaction and demonstration like in teaching activities,
+the use of the {\dgtal} library will be embedded in a
+\textit{Jupyter} notebook allowing online demonstration from a single
+web browser. In the continuity and complement of this online notebook,
+we will propose to the audience to construct its own online
+demonstration by using the new automatic demonstration kernel recently
+proposed in the Image Processing On Line journal.
+</p>
+
+
+
+
+       
+      <h2>Time and location  </h2>
+      26th November at Hunua Room 1  14:00pm-17:00pm
+      
+      <h2>Lecturers</h2>
+
+      
+      
+      <h3>Bertrand Kerautret</h3>
+      <p>PhD thesis in Computer Science, HDR, Professor</p>
+      <p>LIRIS, University of Lyon 2</p>
+      <p>email: bertrand(.dot.)kerautret(.@at.)univ-lyon2.fr</p>
+      
+      <p>Bertrand Kerautret is currently Professor in Computer Science
+        at Lyon 2 University (ICOM department, France) and works in the
+        <a href= "https://liris.cnrs.fr">LIRIS</a> laboratory
+        (Laboratoire d'InfoRmatique en Image et Systèmes
+        d'information,(UMR 5205, CNRS)). He was previously assistant
+        professor at the <a href="http://www.loria.fr"> LORIA </a>
+        (Nancy). He received a PhD degree in Computer Science from
+        Universit\'e Bordeaux in 2004.  His research deals with
+        digital geometry, image processing and its applications.  In
+        2011, he co-organized the international conference DGCI in
+        Nancy.  He is also interested in reproducible research -- he
+        is an active member of
+        the <a href="https://www.ipol.im/meta/board/">IPOL Editorial
+        Board</a> and was at the initiative of the first workshop on
+        Reproducible Research in Pattern Recognition in 2016. Since
+        2017, he chairs the
+        <a href="www.tc18.org">Technical Committee 18</a>x "Discrete
+        Geometry" of IAPR.  He has written about 40 papers in
+        international journals or conferences on these topics. He
+        actively contributes to <a href="www.dgtal.org" > DGtal
+        library</a> and he is the manager of the <a href="">DGtalTools</a>
+        project.  In december 2017, he defended his habilitation
+        thesis to supervise research.
+        
+
+
+              
+      <h3>Jacques-Olivier Lachaud</h3>
+      <p>PhD thesis in Computer Science, HDR, Professor</p>
+      <p>LAMA, University of Savoie Mont Blanc</p>
+      <p>email: jacques-olivier(.dot.)lachaud(.@at.)univ-smb.fr</p>
+
+      <p><a href="http://www.lama.univ-savoie.fr/~lachaud">Jacques-Olivier Lachaud</a>
+        is a professor in Computer Science at Université
+        Savoie Mont Blanc and a member of
+        <a href="https://www.lama.univ-savoie.fr">LAMA </a>
+        (LAboratoire de MAthématiques (UMR 5127, CNRS)) since
+        2007. His research interests include digital and computational
+        geometry, digital topology, and variational approaches for
+        image analysis. In 2003, he co-organized the international
+        conference DGCI in Bordeaux.  He is a member of the Steering
+        Committee of this conference since 2016. From 2010 to 2016, he
+        was the leader of the workgroup Géométrie Discrète (digital
+        geometry), which is part of
+        the <a href="http://www.gdr-im.fr">GDR-IM</a> and
+        <a href="http://icube-web.unistra.fr/gdr-igrv">IGRV</a>. From 2012
+        to 2014, he was a member of the jury for the Gilles Kahn Prize
+        (SIF, Académie des Sciences). Since 2017, he is member of the
+        IGRV PhD prize. He has written 27 articles in the main
+        international journals of the field (PAMI, CVIU, PR, JMIV,
+        MedIA, DAM, CGTA, SIIMS, C&G, CGf, IVC), and more than 55
+        papers in peer-reviewed international conferences (DGCI, ECCV,
+        ICPR, IWCIA). He has supervised or co-supervised 8 PhD theses,
+        and he is currently supervising two PhD students. In 2010, he
+        co-created DGtal and he is now one of the main editors of
+        the library. 
+        </p>
+        
+
+      
+<h2> The program schedule </h2>
+
+  <h3>First Part 14h00 - 15:30 </h3>
+  <ul>
+    <li>Introduction to digital geometry and the DGtal library</li>      
+    <ul>
+      <li> Digital Geometry introduction.</li>
+      <li> Global presentation of the DGtal Library.</li>
+      <li> Overview of the main packages (base, kernel, topology, geometry). </li>
+      <li> Simple example of use with the extraction of level contours of an image.</li>
+    </ul>
+    <li> Robust geometric estimators </li>
+    <ul>
+      <li> Extraction of geometric features robust to noise (tangent curvature)  </li>
+      <li> Multi-grid convergence and theoritical basis.  </li>
+      <li> Impletation using DGtal librabry (with exercice). </li>
+    </ul>
+    
+  </ul>
+
+  <h3>Cofee Break (15h30 - 16h00)  </h3>
+  <h3>Second Part 16h00 - 17:30 </h3>
+  <ul>
+    <li> Applications and Reproducible Research</li>
+    <ul>
+      <li>Introduction </li>
+      <li>Rapid overview of the <i>DGtalTools</i> and <i>DGtalTools-Contrib</i> projects</li>
+      <li>Using DGtal in Jupyter notebook.
+    </ul>
+    <li>Highlighting Reproducible Research</li>
+    <ul>
+      <li> Valuation of implementation in RR journal (IPOL) </li>
+      <li> Preview of the new online demonstration (demo generation) </li>
+    </ul>
+  
+
+
+
+  
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/kerautret/ACPR19-DGPRTutorial">ACPR 2019 Tutorial on Digital Geometry in Pattern Recognition </a> is maintained by <a href="https://github.com/kerautret">kerautret</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
