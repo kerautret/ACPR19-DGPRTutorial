@@ -7,7 +7,7 @@
     },
     "build": {
         "build1": {
-            "url": "https://github.com/kerautret/ACPR19-DGPRTutorial/PracticalSession/basicApp.zip",
+            "url": "https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/PracticalSession/BasicApp.zip",
             "move": "BasicApp/imageTransform",
             "construct": "make -C imageTransform"
         }
@@ -22,7 +22,7 @@
             "max_weight": 300000000
         }
     ],
-    "run": "imageTransform input_0.png output.png",
+    "run": "imageTransform input_0.png output.png 128",
     "results": [
         {
             "type": "gallery",
