@@ -1,0 +1,54 @@
+{
+    "general": {
+        "demo_title": "ACPR 19 hand on IPOL demo",
+        "xlink_article": "",
+        "thumbnail_size": 128,
+        "timeout": 240
+    },
+    "build": {
+        "build1": {
+            "url": "https://github.com/kerautret/ACPR19-DGPRTutorial/PracticalSession/basicApp.zip",
+            "move": "BasicApp/imageTransform",
+            "construct": "make -C imageTransform"
+        }
+    },
+    "inputs": [
+        {
+            "description": "input",
+            "max_pixels": 100000000,
+            "dtype": "3x8i",
+            "ext": ".png",
+            "type": "image",
+            "max_weight": 300000000
+        }
+    ],
+    "run": "imageTransform input_0.png output.png",
+    "results": [
+        {
+            "type": "gallery",
+            "contents": {
+                "Output Image": {
+                    "img": "output.png"
+                },
+                "Input Image" : {
+                    "img": "input_0.png"
+                }
+            }
+        },
+        {
+            "type": "file_download",
+            "contents": {
+                "Output Image": "output.png",
+                "Input Image" : "input_0.png"
+            },
+            "label": "<b>Download the results:</b>"
+        }
+    ],
+    "archive": {
+        "enable_reconstruct": true,
+        "files": {
+            "output.png": "Output image",
+            "input_0.png": "Input image"
+        }
+    }
+}
