@@ -3,8 +3,8 @@
 
 Slides of the presentation:
 
-  - slides first part [partie1TutoDG_ACPR19.pdf](https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/docs/partie1TutoDG_ACPR19.pdf]
-  - slides second part [partie2TutoDG_ACPR19.pdf](https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/docs/partie2TutoDG_ACPR19.pdf]
+  - slides first part [partie1TutoDG_ACPR19.pdf](https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/docs/partie1TutoDG_ACPR19.pdf)
+  - slides second part [partie2TutoDG_ACPR19.pdf](https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/docs/partie2TutoDG_ACPR19.pdf)
 
 
 Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACPR19-DGPRTutorial.svg?branch=master)](https://travis-ci.org/kerautret/ACPR19-DGPRTutorial)
