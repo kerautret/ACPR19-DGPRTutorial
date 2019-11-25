@@ -7,9 +7,9 @@
     },
     "build": {
         "build1": {
-            "url": "https://github.com/kerautret/ACPR19-DGPRTutorial/blob/master/PracticalSession/BasicApp.zip",
+            "url": "http://ker.iutsd.univ-lorraine.fr/BasicApp.zip",
             "move": "BasicApp/imageTransform",
-            "construct": "make -C imageTransform"
+            "construct": "make -C BasicApp"
         }
     },
     "inputs": [
