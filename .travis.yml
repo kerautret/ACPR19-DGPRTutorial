@@ -42,8 +42,6 @@ addons:
 before_install:
   - env
   - export SRC_DIR="`pwd`"
-  - if [ $CXX == "g++" ]; then export CXX="g++-4.8"  CC="gcc-4.8" BOOST_TOOLSET=gcc CCOMPILER="gcc-4.8" CXXCOMPILER="g++-4.8"; fi
-  - if [ "$CXX" = "clang++" ]; then export BOOST_TOOLSET=clang; fi
 
 
 before_script:
