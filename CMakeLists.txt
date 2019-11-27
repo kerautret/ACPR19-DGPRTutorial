@@ -22,7 +22,7 @@ FIND_PACKAGE(Boost 1.46.0 REQUIRED COMPONENTS program_options)
 if ( Boost_FOUND )
   message(STATUS "Boost and boost_program_options found.")
   include_directories( ${Boost_INCLUDE_DIRS} )
-     SET(DGtalToolsLibDependencies ${DGtalToolsLibDependencies} 
+     SET(TutoDependencies ${TutoDependencies} 
      ${Boost_LIBRAIRIES}  
      ${Boost_PROGRAM_OPTIONS_LIBRARY})
    SET(DGtalLibInc ${Boost_INCLUDE_DIRS})
