@@ -18,9 +18,9 @@ FIND_PACKAGE(DGtal REQUIRED)
 INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
 LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
 
-FIND_PACKAGE(Boost 1.46.0 REQUIRED COMPONENTS program_options)
+FIND_PACKAGE(Boost 1.46.0 )
 if ( Boost_FOUND )
-  message(STATUS "Boost and boost_program_options found.")
+  message(STATUS "Boost found.")
   include_directories( ${Boost_INCLUDE_DIRS} )
      SET(TutoDependencies ${TutoDependencies} 
      ${Boost_LIBRAIRIES}  
