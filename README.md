@@ -9,6 +9,7 @@ Slides of the presentation:
 
 Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACPR19-DGPRTutorial.svg?branch=master)](https://travis-ci.org/kerautret/ACPR19-DGPRTutorial)
 
+Windows build: [![Build status](https://ci.appveyor.com/api/projects/status/ico1baug9kr0l5el/branch/master?svg=true)](https://ci.appveyor.com/project/kerautret/acpr19-dgprtutorial/branch/master)
 
 
 ## Requires
