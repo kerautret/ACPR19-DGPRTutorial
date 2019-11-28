@@ -24,7 +24,7 @@ if ( Boost_FOUND )
   include_directories( ${Boost_INCLUDE_DIRS} )
      SET(TutoDependencies ${TutoDependencies} 
      ${Boost_LIBRAIRIES}  
-     ${Boost_PROGRAM_OPTIONS_LIBRARY} Boost::program_options Boost::iostreams)
+     ${Boost_PROGRAM_OPTIONS_LIBRARY} Boost::program_options)
    SET(DGtalLibInc ${Boost_INCLUDE_DIRS})
 endif( Boost_FOUND) 
 
