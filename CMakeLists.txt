@@ -21,6 +21,7 @@ LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
 FIND_PACKAGE(Boost 1.46.0 )
 if ( Boost_FOUND )
   message(STATUS "Boost found.")
+  ADD_DEFINITIONS(${BOOST_DEFINITIONS} -DBOOST_ALL_NO_LIB)
   include_directories( ${Boost_INCLUDE_DIRS} )
      SET(TutoDependencies ${TutoDependencies} 
      ${Boost_LIBRAIRIES}  
